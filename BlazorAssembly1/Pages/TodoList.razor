@@ -1,6 +1,32 @@
 ﻿@page "/todoList"
-<h3>TodoList @name</h3>
+<h3>Todo List</h3>
 
-@code {
-    string name = "TEDU";
+@if(Todos==null){
+    <div>Loading</div>
+
+}
+else
+{
+     <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>AssigneeId</th>
+                    <th>CreatedDate</th>
+                </tr>
+            </thead>
+            <tbody>
+                 @foreach(var item in Todos)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.AssigneeId</td>
+                        <td>@item.CreatedDate.ToString("dd/MM/yyy hh:mm")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+   
 }

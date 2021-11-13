@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAssembly1", "BlazorAssembly1\BlazorAssembly1.csproj", "{0440CF6E-5B4A-4AC6-9B84-E82D4AFCC53D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAssembly1", "BlazorAssembly1\BlazorAssembly1.csproj", "{0440CF6E-5B4A-4AC6-9B84-E82D4AFCC53D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAppApi", "CoreAppApi\CoreAppApi.csproj", "{9A345FB7-55FD-4D88-8ECA-1AAD36E28E44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreAppApi", "CoreAppApi\CoreAppApi.csproj", "{9A345FB7-55FD-4D88-8ECA-1AAD36E28E44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
