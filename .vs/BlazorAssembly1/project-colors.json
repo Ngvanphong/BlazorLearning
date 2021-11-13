@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0440cf6e-5b4a-4ac6-9b84-e82d4afcc53d": {
+      "ProjectGuid": "0440cf6e-5b4a-4ac6-9b84-e82d4afcc53d",
+      "DisplayName": "BlazorAssembly1",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9a345fb7-55fd-4d88-8eca-1aad36e28e44": {
+      "ProjectGuid": "9a345fb7-55fd-4d88-8eca-1aad36e28e44",
+      "DisplayName": "CoreAppApi",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
